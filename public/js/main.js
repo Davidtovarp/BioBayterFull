@@ -58,7 +58,10 @@ $.scrollIt({
         
     });
     
-    
+    //Hide menu when click on ul object
+    $("#navbarNavDropdown a").on("click", function(){
+        $( ".navbar-toggler" ).trigger( "click" );
+    })
 
     $(".navbar-toggler").on("click", function(){
         $(this).toggleClass("active");
