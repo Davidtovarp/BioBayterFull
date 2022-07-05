@@ -1001,7 +1001,7 @@
 
               <!-- contact form -->
               <div class="col-lg-8">
-                  <form class="form" id="contact-form" method="post" action="link de la empresa form">
+                  <form class="form" id="contact-form" method="post" action="#" onsubmit="sendEmail();return false">
 
                       <div class="messages"></div>
 
@@ -1016,7 +1016,7 @@
                               </div>
                               <div class="col-md-6">
                                   <div class="form-group">
-                                      <input id="phone" type="text" name="phone" placeholder="Cell phone..." required="required" data-error="Valid email is required.">
+                                      <input id="form_phone" type="text" name="phone" placeholder="Cell phone..." required="required" data-error="Valid email is required.">
                                       <div class="help-block with-errors"></div>
                                   </div>
                               </div>
@@ -1038,7 +1038,7 @@
                               </div>
 
                               <div class="col-md-12">
-                                  <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                  <button id="btnContactSend" class="butn butn-bg"><span>Send Message</span></button>
                               </div>
 
                           </div>                             

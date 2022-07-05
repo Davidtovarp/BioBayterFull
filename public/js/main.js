@@ -182,4 +182,17 @@ $(document).ready(function() {
     });
 });
 
-
+let sendEmail=()=>{
+    const name=document.getElementById("form_name").value;
+    const phone=document.getElementById("form_phone").value;
+    const email=document.getElementById("form_email").value;
+    const subject=document.getElementById("form_subject").value;
+    const message=document.getElementById("form_message").value;
+    fetch("/getInTouch", {
+        method: "POST",
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'}, 
+        body: `name=${name}&phone=${phone}&email=${email}&subject=${subject}&message=${message}`
+      }).then(res => {
+        alert("It has been sent your message, we will soon contact you");
+      });
+};
