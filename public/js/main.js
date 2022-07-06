@@ -131,7 +131,7 @@ $('header .owl-carousel').owlCarousel({
 });
 
 $(window).on("load",function (){
-    $(".loader").fadeOut(1000);
+    $(".loader").fadeOut(1000);   
 });
 
 
@@ -140,6 +140,7 @@ $(document).ready(function() {
 
     var owl = $('.header .owl-carousel');
 
+    $( ".taps .active" ).trigger( "click" );
 
     // Slider owlCarousel
     $('.slider .owl-carousel').owlCarousel({
