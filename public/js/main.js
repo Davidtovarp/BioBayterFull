@@ -48,12 +48,12 @@ $.scrollIt({
         if(bodyScroll > 10){
 
             navbar.addClass("nav-fix");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/Logobiobayter.png');
 
         }else{
 
             navbar.removeClass("nav-fix");
-            logo.attr('src', 'img/dark-logo.png');
+            logo.attr('src', 'img/Logobiobayter.png');
         }
         
     });
