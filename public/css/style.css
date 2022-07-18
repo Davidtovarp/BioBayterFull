@@ -1542,3 +1542,16 @@ footer {
 #abouta .abouta-extra p {
   padding-bottom: 2rem;
 }
+
+/* Wallet
+--------------------------------*/
+.nft h1 {
+  padding: 2rem;
+  font-size: 30px;
+  font-family: 'Poppins',
+    sans-serif;
+  color: #3764EB;
+  font-weight: 600;
+  text-align: center;
+}
+=======
